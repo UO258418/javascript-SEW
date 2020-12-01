@@ -1,0 +1,33 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+h1, h2, h3, h4 {
+	text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+    color: #FF0000;
+}
+
+h2 {
+    font-size: 3em;
+    color: #FF8500;
+}
+
+h3 {
+    font-size: 2em;
+    color: #FFCB00;
+}
+
+h4 {
+    font-size: 1.5em;
+    color: blue;
+}
+
+p {
+    font-size: 1em;
+    color: gray;
+}
