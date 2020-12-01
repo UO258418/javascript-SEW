@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <title>Ejercicio 3</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="CalculadoraBasica.css"/>
+    </head>
+    <body>
+        <main>
+            <h1>Calculadora básica</h1>
+            <section>
+                <input type="text" class="display" disabled/>
+
+                <script src="CalculadoraBasica.js"></script>
+
+                <div class="button-grid">
+                    <!-- Row 1 -->
+                    <input type="button" value="mrc" class="dark-gray" onclick="calculadora.mrc()"/>
+                    <input type="button" value="m-" class="dark-gray" onclick="calculadora.mMenos()"/>
+                    <input type="button" value="m+" class="dark-gray" onclick="calculadora.mMas()"/>
+                    <input type="button" value="/" class="red black" onclick="calculadora.division()"/>
+
+                    <!-- Row 2 -->
+                    <input type="button" value="7" class="gray" onclick="calculadora.digitos(this.value)"/>
+                    <input type="button" value="8" class="gray" onclick="calculadora.digitos(this.value)"/>
+                    <input type="button" value="9" class="gray" onclick="calculadora.digitos(this.value)"/>
+                    <input type="button" value="*" class="red black" onclick="calculadora.multiplicacion()"/>
+
+                    <!-- Row 3 -->
+                    <input type="button" value="4" class="gray" onclick="calculadora.digitos(this.value)"/>
+                    <input type="button" value="5" class="gray" onclick="calculadora.digitos(this.value)"/>
+                    <input type="button" value="6" class="gray" onclick="calculadora.digitos(this.value)"/>
+                    <input type="button" value="-" class="red black" onclick="calculadora.resta()">
+
+                    <!-- Row 4 -->
+                    <input type="button" value="1" class="gray" onclick="calculadora.digitos(this.value)"/>
+                    <input type="button" value="2" class="gray" onclick="calculadora.digitos(this.value)"/>
+                    <input type="button" value="3" class="gray" onclick="calculadora.digitos(this.value)"/>
+                    <input type="button" value="+" class="red black" onclick="calculadora.suma()"/>
+
+                    <!-- Row 5 -->
+                    <input type="button" value="0" class="gray" onclick="calculadora.digitos(this.value)"/>
+                    <input type="button" value="." class="gray" onclick="calculadora.punto()"/>
+                    <input type="button" value="C" class="gray" onclick="calculadora.borrar()"/>
+                    <input type="button" value="=" class="gray black" onclick="calculadora.igual()"/>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <title>Ejercicio 4</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="CalculadoraCientifica.css"/>
+    </head>
+    <body>
+        <main>
+            <h1>Calculadora Científica</h1>
+            <section>
+                <input type="text" class="display" disabled/>
+
+                <script src="CalculadoraCientifica.js"></script>
+
+                <div class="button-grid">
+                    <!-- Row 1 -->
+                    <input type="button" value="x²" onclick="calculadora.pow2()"/>
+                    <input type="button" value="xʸ" onclick="calculadora.pow()"/>
+                    <input type="button" value="sin" onclick="calculadora.sin()"/>
+                    <input type="button" value="cos" onclick="calculadora.cos()"/>
+                    <input type="button" value="tan" onclick="calculadora.tan()"/>
+
+                    <!-- Row 2 -->
+                    <input type="button" value="√" onclick="calculadora.squareRoot()"/>
+                    <input type="button" value="10ˣ" onclick="calculadora.tenToThePow()"/>
+                    <input type="button" value="log" onclick="calculadora.log()"/>
+                    <input type="button" value="ln" onclick="calculadora.ln()"/>
+                    <input type="button" value="rnd" onclick="calculadora.random()"/>
+                    
+                    <!-- Row 3 -->
+                    <input type="button" value="ans" onclick="calculadora.ans()"/>
+                    <input type="button" value="CE" onclick="calculadora.borrarUltimo()"/>
+                    <input type="button" value="C" onclick="calculadora.borrar()"/>
+                    <input type="button" value="&#9003" onclick="calculadora.borrarUltimo()"/>
+                    <input type="button" value="&#247" onclick="calculadora.division()"/>
+
+                    <!-- Row 4 -->
+                    <input type="button" value="&#120587" onclick="calculadora.PI()"/>
+                    <input type="button" value="7" class="digit" onclick="calculadora.digitos(this.value)"/>
+                    <input type="button" value="8" class="digit" onclick="calculadora.digitos(this.value)"/>
+                    <input type="button" value="9" class="digit" onclick="calculadora.digitos(this.value)"/>
+                    <input type="button" value="&#10005" onclick="calculadora.multiplicacion()"/>
+
+                    <!-- Row 5 -->
+                    <input type="button" value="n!" onclick="calculadora.factorial()"/>
+                    <input type="button" value="4" class="digit" onclick="calculadora.digitos(this.value)"/>
+                    <input type="button" value="5" class="digit" onclick="calculadora.digitos(this.value)"/>
+                    <input type="button" value="6" class="digit" onclick="calculadora.digitos(this.value)"/>
+                    <input type="button" value="-" onclick="calculadora.resta()"/>
+
+                    <!-- Row 6 -->
+                    <input type="button" value="&#177" onclick="calculadora.cambiarSigno()"/>
+                    <input type="button" value="1" class="digit" onclick="calculadora.digitos(this.value)"/>
+                    <input type="button" value="2" class="digit" onclick="calculadora.digitos(this.value)"/>
+                    <input type="button" value="3" class="digit" onclick="calculadora.digitos(this.value)"/>
+                    <input type="button" value="+" onclick="calculadora.suma()"/>
+
+                    <!-- Row 7 -->
+                    <input type="button" value="(" onclick="calculadora.parentesis(this.value)"/>
+                    <input type="button" value=")" onclick="calculadora.parentesis(this.value)"/>
+                    <input type="button" value="0" class="digit" onclick="calculadora.digitos(this.value)"/>
+                    <input type="button" value="," class="digit" onclick="calculadora.punto()"/>
+                    <input type="button" value="=" onclick="calculadora.igual()"/>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

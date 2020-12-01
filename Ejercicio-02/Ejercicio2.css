@@ -14,12 +14,12 @@ h1 {
 
 h2 {
     font-size: 3em;
-    color: green;
+    color: #FF8500;
 }
 
 h3 {
     font-size: 2em;
-    color: darkblue;
+    color: #FFCB00;
 }
 
 h4 {
@@ -29,5 +29,5 @@ h4 {
 
 p {
     font-size: 1em;
-    color: black;
+    color: gray;
 }

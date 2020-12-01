@@ -1,0 +1,77 @@
+body {
+    margin: 10vh auto;
+    width: 100vw;
+    height: 80vh;
+}
+
+main {
+    background-color: #C19A6F;
+    width: 40%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    background-color: #3A3D39;
+    width: 80%;
+    height: 80%;
+    margin: 10% auto;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
+    margin: 10% auto;
+    gap: 5%;
+    width: 80%;
+    flex-grow: 1;
+}
+
+.display {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 10%;
+    margin-top: 10%;
+    background-color: #B4CE94;
+    text-align: right;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+input[type=button] {
+    border-radius: 1em;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+input[type=button]:focus {
+    outline-style: none;
+}
+
+input[type=button].gray {
+    background-color: #D9DBD6;
+}
+
+input[type=button].dark-gray {
+    background-color: #707070;
+}
+
+input[type=button].red {
+    background-color: #F55252;
+}
+
+input[type=button].black {
+    color: black;
+}
