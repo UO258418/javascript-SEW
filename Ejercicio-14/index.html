@@ -8,7 +8,8 @@
     </head>
     <body>
 
-        <h1>Pizarra por comandos con importacion de imagenes</h1>
+        <h1>Pizarra digital</h1>
+        <p>Pizarra por comandos de API canvas (ej:"fillRect(10, 10, 50, 50)") con importacion de imagenes</p>
         
         <div id="insertImage">
             <input type='file' name='img' id='uploadimage' title="uploadimage"/>
@@ -16,7 +17,7 @@
 
         <div id="fullscreen" class="html5-fullscreen-api">
             <canvas id="myCanvas"></canvas>
-            <span class="fs-button" onclick="blackboard.fullscreen()" accesskey="f"></span>
+            <span class="fs-button" onclick="blackboard.fullscreen()" tabindex="1"></span>
         </div>
 
         <div id="commandInput">

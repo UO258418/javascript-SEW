@@ -16,7 +16,7 @@ body {
     position: relative;
     width: 60%;
     margin: 0 auto;
-    height: 80%;
+    height: 70%;
 }
 
 .html5-fullscreen-api canvas {
@@ -57,4 +57,12 @@ body {
 
 #commandInput, #insertImage {
     text-align: center;
+}
+
+h1, p {
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
 }
