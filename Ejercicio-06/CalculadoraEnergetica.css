@@ -1,0 +1,57 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 8% auto;
+    background-color: #FBC700;
+    height: 60%;
+    width: 90%;
+    border-radius: 1em;
+    padding: 2em;
+    justify-content: space-between;
+}
+
+.device {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1em 0;
+}
+
+#deviceList {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.dataInput, .name {
+    display: inline-block;
+    margin: 0;
+}
+
+.dataInput {
+    display: flex;
+    justify-content: center;
+}
+
+.dataInput input {
+    height: 1em;
+}
+
+#addDevice {
+    text-align: center;
+}
+
+#bottomBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

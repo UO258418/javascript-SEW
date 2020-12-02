@@ -1,0 +1,27 @@
+section {
+    margin: 2em 2em 3.5em;
+}
+
+h1, h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    border-radius: 1em;
+    background-color: orange;
+    padding: 1em 0.5em;
+    text-align: center;
+}
+
+h2 {
+    display: inline-block;
+}
+
+img {
+    vertical-align: middle;
+}
+
+p {
+    margin: 0.25em auto;
+    font-size: 1.25em;
+}

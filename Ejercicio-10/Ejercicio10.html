@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Ejercicio10</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="Ejercicio10.css"/>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <h1>Currency converter</h1>
+        <form>
+            <input type="text" id="amount"/>
+            <label for="from">From:</label>
+            <select name="from" id="from"></select>
+            <label for="to">To:</label>
+            <select name="to" id="to"></select>
+            <input type="button" value="Convertir" onclick="converter.convert()"/>
+            <input type="text" id="display" disabled/>
+        </form>
+
+        <script src="Ejercicio10.js"></script>
+    </body>
+</html>

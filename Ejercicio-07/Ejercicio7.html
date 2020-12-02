@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <title>Ejercicio7</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="Ejercicio7.css" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="Ejercicio7.js"></script>
+    </head>
+    <body>
+        <!-- Ocultar y mostrar -->
+        <h1>Ejercicio 7</h1>
+        <h2>Esto es un encabezado mas pequeño</h2>
+        <h3>Otro mas</h3>
+        <input type="button" value="Ocultar encabezados" onclick="encabezados.ocultar()"/>
+        <input type="button" value="Mostrar encabezados" onclick="encabezados.mostrar()"/>
+
+        <!-- Modificar -->
+        <p id="texto-animal">Puma</p>
+        <img  id="img-animal" src="https://okdiario.com/img/2019/06/24/puma-en-peligro-de-extincion.jpg" />
+        <input type="button" value="Puma" onclick="animal.mostrarPuma()"/>
+        <input type="button" value="Oso" onclick="animal.mostrarOso()"/>
+
+        <!-- Añadir elementos -->
+        <section id="add-parrafos">
+            <p>Añade mas parrafos si quieres</p>
+        </section>
+        <form id="add-parrafo">
+            <input type="text" />
+            <input type="button" value="Añadir parrafo" onclick="controlParrafos.addParrafo()"/>
+            <input type="button" value="Eliminar parrafo" onclick="controlParrafos.eliminarParrafo()"/>
+        </form>
+
+        <!-- Recorrer el DOM -->
+        <h4>DOM</h4>
+        <input type="button" value="Recorrer DOM" onclick="traverser.recorrerDOM()"/>
+
+        <!-- Sumar filas y columnas de una tabla -->
+        <table>
+            <tr>
+                <th>Columa 1</th>
+                <th>Columa 2</th>
+                <th>Columa 3</th>
+            </tr>
+
+            <tr>
+                <td>11</td>
+                <td>26</td>
+                <td>35</td>
+            </tr>
+
+            <tr>
+                <td>13</td>
+                <td>16</td>
+                <td>19</td>
+            </tr>
+        </table>
+        <form id="sumar-tabla">
+            <input type="text" disabled/>
+            <input type="button" value="Sumar" onclick="sumarTabla.sumar()"/>
+        </form>
+    </body>
+</html>
