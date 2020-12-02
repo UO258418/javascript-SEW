@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="es-ES">
     <head>
         <title>Ejercicio10</title>
         <meta charset="UTF-8"/>
@@ -10,15 +10,15 @@
 
     <body>
         <h1>Currency converter</h1>
-        <form>
-            <input type="text" id="amount"/>
+        <div>
+            <input type="text"  title="amount" id="amount"/>
             <label for="from">From:</label>
             <select name="from" id="from"></select>
             <label for="to">To:</label>
             <select name="to" id="to"></select>
             <input type="button" value="Convertir" onclick="converter.convert()"/>
-            <input type="text" id="display" disabled/>
-        </form>
+            <input type="text" title="display" id="display" disabled/>
+        </div>
 
         <script src="Ejercicio10.js"></script>
     </body>
