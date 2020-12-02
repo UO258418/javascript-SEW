@@ -151,6 +151,7 @@ class Display {
         display.id = "display"
         display.className = "display main"
         display.disabled = true
+        display.title = "display"
         this.mainDisplay = display
         this.container.appendChild(this.mainDisplay)
 
@@ -158,6 +159,7 @@ class Display {
             display = document.createElement("input")
             display.type = "text"
             display.id = "display" + i
+            display.title = "display" + i
             display.className = "display"
             display.disabled = true
             this.stackDisplays.push(display)
