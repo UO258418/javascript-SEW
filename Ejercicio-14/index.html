@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="es-ES">
+    <head>
+        <title>Ejercicio 14</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        
+        <div id="insertImage">
+            <input type='file' name='img' id='uploadimage' />
+        </div>
+
+        <div id="fullscreen" class="html5-fullscreen-api">
+            <canvas id="myCanvas"></canvas>
+            <span class="fs-button" onclick="blackboard.fullscreen()"></span>
+        </div>
+
+        <div id="commandInput">
+            <input type="text" title="commandPrompt" id="commandPrompt"/>
+            <input type="button" value="Draw" onclick="blackboard.draw()"/>
+        </div>
+
+        <script src="main.js"></script>
+        
+    </body>
+</html>
