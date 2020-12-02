@@ -3,9 +3,9 @@ class Lector {
     constructor() {
         if (window.File && window.FileReader && window.FileList && window.Blob) {
             //El navegador soporta el API File
-            document.write("<h1>Este navegador soporta el API File </h1>");
+            document.write("<h2>Este navegador soporta el API File </h2>");
         }
-        else document.write("<h1>¡¡¡ Este navegador NO soporta el API File y este programa puede no funcionar correctamente !!!</h1>");
+        else document.write("<h2>¡¡¡ Este navegador NO soporta el API File y este programa puede no funcionar correctamente !!!</h2>");
         this.currentParent;
     }
 
