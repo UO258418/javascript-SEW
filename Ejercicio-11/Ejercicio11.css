@@ -1,0 +1,12 @@
+h1 {
+    color: white;
+    background-color: blue;
+    text-align: center;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+
+#dynamicMap {
+    height: 95%;
+    width: 100%;
+}

@@ -10,7 +10,10 @@ class Converter {
         this.availableCurrencies = {
             "Euro": "EUR",
             "United States Dollar": "USD",
-            "British Pound Sterling": "GBP"
+            "British Pound Sterling": "GBP",
+            "Russian ruble": "RUB",
+            "Romania": "RON",
+            "Polish zloty": "PLN"
         }
         this.fillSelectsWithCurrencies();
     }

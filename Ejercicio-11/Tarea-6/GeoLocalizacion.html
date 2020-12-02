@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Ejercicio11</title>
+    <meta name="viewport" content="initial-scale=1.0"/>
+    <link href="Ejercicio11.css" rel="stylesheet"/>
+</head>
+<body>
+    <h1>GeoLocalizacion</h1>
+    <div id="dynamicMap"></div>
+    <div id="search">
+        <label for="lat">Latitud:</label>
+        <input type="text" id="lat"/>
+        <label for="lng">Longitud:</label>
+        <input type="text" id="lng"/>
+        <input type="button" id="searchbutton" value="Buscar" onclick="geoLocation.moveTo()"/>
+    </div>
+    <script src="GeoLocalizacion.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6j4mF6blrc4kZ54S6vYZ2_FpMY9VzyRU&callback=geoLocation.initDynamicMap">
+    </script>
+</body>
+</html>
