@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="es">
+<html lang="es-ES">
     <head>
         <title>Ejercicio7</title>
         <meta charset="UTF-8" />
@@ -18,12 +18,13 @@
 
         <!-- Modificar -->
         <p id="texto-animal">Puma</p>
-        <img  id="img-animal" src="https://okdiario.com/img/2019/06/24/puma-en-peligro-de-extincion.jpg" />
+        <img  alt="animal" id="img-animal" src="https://okdiario.com/img/2019/06/24/puma-en-peligro-de-extincion.jpg" />
         <input type="button" value="Puma" onclick="animal.mostrarPuma()"/>
         <input type="button" value="Oso" onclick="animal.mostrarOso()"/>
 
         <!-- Añadir elementos -->
         <section id="add-parrafos">
+            <h4>Parrafos</h4>
             <p>Añade mas parrafos si quieres</p>
         </section>
         <form id="add-parrafo">
@@ -57,7 +58,7 @@
             </tr>
         </table>
         <form id="sumar-tabla">
-            <input type="text" disabled/>
+            <input type="text" title="sumar" disabled/>
             <input type="button" value="Sumar" onclick="sumarTabla.sumar()"/>
         </form>
     </body>
