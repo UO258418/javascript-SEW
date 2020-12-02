@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="es-ES">
     <head>
         <title>Ejercicio 6</title>
         <meta charset="UTF-8"/>
         <link rel="stylesheet" href="CalculadoraEnergetica.css"/>
     </head>
     <body>
+        <h1>Calculadora Energetica</h1>
+        <p>Una calculadora energetica</p>
+
         <main>
             <div id="deviceList"></div>
         
             <div id="bottomBar">
                 <div id="addDevice">
-                    <input type="text" id="deviceName"/>
+                    <input type="text" title="name" id="deviceName"/>
                     <input type="button" value="Añadir dispositivo" onclick="ce.addDevice()"/>
                 </div>
 
                 <div>
                     <input type="button" value="calcular" onclick="ce.calcular()"/>
-                    <input type="text" id="output" disabled/>
+                    <input type="text" title="output" id="output" disabled/>
                 </div>
             </div>
             
