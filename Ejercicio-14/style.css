@@ -26,6 +26,8 @@ body {
 }
 
 .html5-fullscreen-api .fs-button {
+    font-family: 'ModernPictogramsNormal';
+    font-size: 20px;
     z-index: 100;
     display: inline-block;
     width: 32px;
