@@ -1,0 +1,8 @@
+<root>
+    <parent>
+        <child>Aqui pongo texto</child>
+        <child>Aqui tambien</child>
+    </parent>    
+
+    <node>Aqui mas texto</node>
+</root>

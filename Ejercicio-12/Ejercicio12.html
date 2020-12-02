@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html lang="es-ES">
+    <head>
+        <title>Ejercicio12</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="Ejercicio12.css"/>
+        <script src="Ejercicio12.js"></script>
+    </head>
+    <body>
+        <h1>Lector de archivos</h1>
+        <p>Muestra la informacion de los archivos seleccionados</p>
+
+        <input type="file" title="textFile" id="archivoTexto" onchange="lector.leerArchivoTexto(this.files);" multiple/>
+        <section id="fileInfoDisplay"></section>
+    </body>
+</html>
