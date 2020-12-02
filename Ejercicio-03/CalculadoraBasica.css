@@ -13,10 +13,6 @@ main {
     flex-direction: column;
 }
 
-h2 {
-    text-align: center;
-}
-
 .section {
     background-color: #3A3D39;
     width: 80%;
